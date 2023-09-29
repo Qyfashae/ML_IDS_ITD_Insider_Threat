@@ -10,20 +10,20 @@ path_to_dataset = "./your_dataset/" # Path to your own dataset data
 
 #Specify the .csv files and wich columns to read
 log_types = [
-			 "device", 
-			 "email",
-			 "file", 
-			 "logon",  
-			 "http",
-			 ]
+	"device", 
+	"email",
+	"file", 
+	"logon",  
+	"http",
+	]
 
 log_fields_list = [
-				   ["date", "employee", "activity"],
-				   ["date", "employee", "to", "cc", "bcc"],
-				   ["date", "employee", "filename"], 
-				   ["date", "employee", "activity"], 
-				   ["date", "employee", "url"],				
-				   ]
+		["date", "employee", "activity"],
+		["date", "employee", "to", "cc", "bcc"],
+		["date", "employee", "filename"], 
+		["date", "employee", "activity"], 
+		["date", "employee", "url"],				
+		]
 
 # We create features & encode them thats why we create a dict to track these(We will add features/functions)
 features = 0
