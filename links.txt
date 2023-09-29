@@ -1,0 +1,2 @@
+ftp://ftp.sei.cmu.edu/pub/cert-data/r4.2.tar.bz2
+https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=508099
