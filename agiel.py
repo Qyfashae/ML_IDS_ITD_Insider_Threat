@@ -138,12 +138,6 @@ def logon_feature(row):
 def http_feature(row):
 	return feature_map["url"]
 
-'''
-# Will collect information contained in the requests or url visited by employee if employee == suspicious
-def urlcollect_feature(row):
-	if ***
-'''
-
 # To not override we only collect the day an event occured and not full timestamp for memory reasons
 def date_to_day(row):
 	day_only = row["date"].date()
